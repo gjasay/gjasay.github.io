@@ -1,10 +1,21 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Games With Gabe</title>
-    </head>
-
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+<head>
+    <title>Snake 1.0</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  
+  <body>
+    <div id="header">
+      <div id="title">
+        <h1>Snake</h1>
+      </div>
+      <div id="scoreBar">
+        <h2>Score: <span id="myScore"></span></h2>
+        <h2>High Score: <span id="highScore"></span></h2>
+      </div>
+    </div>
+    <div id="game-container">
+      <canvas id="mainWindow" width="700" height="700"></canvas>
+      <script src="snake.js"></script>
+    </div>
+  </body>
+  
